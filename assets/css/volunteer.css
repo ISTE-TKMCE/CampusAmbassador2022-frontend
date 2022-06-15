@@ -16,6 +16,7 @@ body {
     font-family: var(--c-font);
     background-color: #000;
     color: #fff;
+    scroll-behavior:smooth;
 
 }
 
@@ -48,7 +49,7 @@ body {
 
 .navbar,#footer {
     background: rgba( 100, 65, 165, 0.05 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    box-shadow: 0 4px 16px 0 rgba( 31, 38, 135, 0.37 ) ;
     backdrop-filter: blur( 0px );
     -webkit-backdrop-filter: blur( 0px );
     border-radius: 10px;
@@ -112,44 +113,21 @@ section {
     color: #fff;
     font-size: 80px;
     text-shadow:
-        3px 3px 0 #2a0845,
-        -1px -1px 0 #2a0845,
-        1px -1px 0 #2a0845,
-        -1px 1px 0 #2a0845,
-        1px 1px 0 #2a0845;
+        3px 3px 0 #6441A5,
+        -1px -1px 0 #6441A5,
+        1px -1px 0 #6441A5,
+        -1px 1px 0 #6441A5,
+        1px 1px 0 #6441A5;
 }
 
 
 
 
 
-.in-responsibility {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: auto auto auto auto;
-
-
-}
-
-.in-responsibility .row2 {
-    margin-top: 100px;
-
-}
-
-.in-responsibility .row3 {
-
-
-    margin-top: 200px;
-}
-
-.in-responsibility .row4 {
-
-    margin-top: 300px;
-}
 
 h3 {
     background: rgba( 100, 65, 165, 0.05 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    box-shadow: 0 4px 16px 0 rgba( 31, 38, 135, 0.37 ) ;
     backdrop-filter: blur( 0px );
     -webkit-backdrop-filter: blur( 0px );
     border-radius: 10px;
@@ -157,22 +135,7 @@ h3 {
     padding: 10px;
 }
 
-.in-responsibility h5 {
 
-    background-image: linear-gradient(to right, #6441A5 0%, #2a0845 51%, #6441A5 100%);
-    padding: 10px;
-    border-radius: 10px;
-
-}
-
-.card {
-    background: rgba( 100, 65, 165, 0.05 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 0px );
-    -webkit-backdrop-filter: blur( 0px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-}
 
 .in-benefits {
     display: grid;
@@ -221,12 +184,12 @@ h3 {
 
 
 input,select,option{
-    background: rgba( 100, 65, 165, 0.05 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 0px );
-    -webkit-backdrop-filter: blur( 0px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    background: rgba( 100, 65, 165, 0.05 )  !important;
+    box-shadow: 0 4px 16px 0 rgba( 31, 38, 135, 0.37 )  !important;
+    backdrop-filter: blur( 0px )  !important;
+    -webkit-backdrop-filter: blur( 0px )  !important;
+    border-radius: 10px  !important;
+    border: 1px solid rgba( 255, 255, 255, 0.18 )  !important;
 color:#6441A5 !important;
 }
 #footer a{
