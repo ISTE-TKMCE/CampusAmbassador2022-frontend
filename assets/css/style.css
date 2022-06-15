@@ -241,11 +241,16 @@ color:#1fa2ff !important;
 }
 @media only screen and (max-width:500px){
 
+    #first,
+#faq {
+    min-height: 95vh;
+    width: 100%;
+}
     #first h1{
-        font-size:40px;
+        font-size:50px;
     }
     #first h1 span{
-        font-size:60px;
+        font-size:80px;
     }
     .in-responsibility {
         display: flex;
