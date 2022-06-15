@@ -14,8 +14,8 @@ html,
 body {
     overflow-x: hidden;
     font-family: var(--c-font);
-    background-color: white;
-    color: #000;
+    background-color: #000;
+    color: #fff;
 
 }
 
@@ -43,7 +43,7 @@ body {
 }
 
 #navigation a {
-    color: #2a0845;
+    color: #6441A5;
 }
 
 .navbar,#footer {
@@ -57,7 +57,9 @@ body {
 }
 
 #navigation a:hover{
+    
     background-image: linear-gradient(to right, #6441A5 0%, #2a0845 51%, #6441A5 100%);
+    
     transition: 0.5s;
     color: white;
     border-radius: 10px;
@@ -66,13 +68,12 @@ body {
 .btn {
     background-image: linear-gradient(to right, #6441A5 0%, #2a0845  51%, #6441A5  100%);
     margin: 10px;
-    padding: 15px 45px;
+    padding: 10px 45px;
     text-align: center;
     text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
     color: white;            
-    box-shadow: 0 0 20px #eee;
     border-radius: 10px;
     display: block;
   }
@@ -158,7 +159,7 @@ h3 {
 
 .in-responsibility h5 {
 
-    background-image: linear-gradient(to right, #2a0845 0%, #2a0845 51%, #2a0845 100%);
+    background-image: linear-gradient(to right, #6441A5 0%, #2a0845 51%, #6441A5 100%);
     padding: 10px;
     border-radius: 10px;
 
@@ -181,7 +182,7 @@ h3 {
 }
 
 #benefits .fa-solid {
-    color: #2a0845;
+    color: #6441A5;
     font-size: 40px;
     margin-top: 10px;
 }
@@ -226,7 +227,7 @@ input,select,option{
     -webkit-backdrop-filter: blur( 0px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
-color:#2a0845 !important;
+color:#6441A5 !important;
 }
 #footer a{
     text-decoration:none;
