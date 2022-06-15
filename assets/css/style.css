@@ -241,11 +241,7 @@ color:#1fa2ff !important;
 }
 @media only screen and (max-width:500px){
 
-    #first,
-#faq {
-    min-height: 95vh;
-    width: 100%;
-}
+
     #first h1{
         font-size:50px;
     }
